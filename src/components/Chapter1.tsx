@@ -844,7 +844,7 @@ export default function Chapter1() {
             <div className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-xl flex flex-col md:flex-row">
               <div className="md:w-1/2 relative group bg-black">
                 <img 
-                  src="/tumor-mri.png" 
+                  src={`${import.meta.env.BASE_URL}tumor-mri.png`} 
                   alt="MRI Scan" 
                   className="w-full h-full object-contain bg-black opacity-80 group-hover:opacity-30 transition-opacity duration-500"
                   referrerPolicy="no-referrer"
